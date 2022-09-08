@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - print the size
- * Description: print the size 
- * Return: 0
+ *main - print the size
+ *Description: print the size 
+ *Return: 0
  */
 int main(void)
 {
