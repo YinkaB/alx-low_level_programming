@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description - printf "with proper grammar...."
- * Return - 0
+ * Description: printf "with proper grammar...."
+ * Return: 0
  */
 int main(void)
 {
