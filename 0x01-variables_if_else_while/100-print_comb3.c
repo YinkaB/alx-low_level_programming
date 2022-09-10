@@ -15,25 +15,26 @@ int main(void)
 	i = 48;
 	e = 48;
 
-	while (i < 58)
+	while (e < 58)
 	{
-		e = i + 1;
-		while (e < 58)
+		i = 48;
+		while (i < 58)
 		{
-
-			putchar (i);
-			putchar (e);
-
-			if (i == 56 || e == 57)
+			if (e != i && e < i)
 			{
-
-				putchar (44);
-				putchar (32);
+				putchar(i);
+				putchar(e);
+				if (i == 57 && e == 56)
+				{
+					break;
+				}
+				putchar(',');
+				putchar(' ');
 			}
 			i++;
 		}
 		e++;
 	}
-	putchar (10);
+	putchar('\n');
 	return (0);
 }
