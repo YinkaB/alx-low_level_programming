@@ -1,12 +1,12 @@
 #include<stdio.h>
 
-/*
+/**
  * main - prints alphabet
  *
- * Description: prints alphabet using loop
+ * Description: print letters of the alphabet
  *
  * Return: 0
- **/
+ */
 int main(void)
 {
 	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
