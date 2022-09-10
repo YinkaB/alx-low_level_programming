@@ -4,7 +4,6 @@
 
 #include <time.h>
 /**
- *
  **main - print last digit in random number
  ** Description: print last digit in random number
  ** Return: 0
