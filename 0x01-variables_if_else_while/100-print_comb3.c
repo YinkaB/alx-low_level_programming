@@ -30,9 +30,9 @@ int main(void)
 				putchar (44);
 				putchar (32);
 			}
-			i++
+			i++;
 		}
-		e++
+		e++;
 	}
 	putchar (10);
 	return (0);
