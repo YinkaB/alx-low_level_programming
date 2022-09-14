@@ -1,23 +1,24 @@
 #include "main.h"
 
 /**
- * main - print _putchar
+ * main - prints _putchar
  *
- * Description: a program that prints _putchar
+ * Description:  program that prints _putchar
  *
  * Return: 0
  */
 
 int main(void)
-{
-	char text[9] = "_putchar";
-	int a = 0;
 
-	for (a = 0; a < 8; a++)
+{
+	int str[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
+	int count, size;
+
+	size = sizeof(str) / sizeof(int);
+	for (count = 0; count < size; count++)
 	{
-		_putchar(text[i]);
+		_putchar(str[count]);
 	}
 	_putchar('\n');
-
 	return (0);
 }
