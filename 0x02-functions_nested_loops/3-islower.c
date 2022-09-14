@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - checks lower case
+ * _islower - checks lower case
  *
- * Description: function that checks for lower case
+ * @c: function that checks for lower case
  *
  * Return: 1 else 0
  */
